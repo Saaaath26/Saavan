@@ -1,0 +1,1 @@
+"""Saavan desktop integration adapters."""
