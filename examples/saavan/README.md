@@ -21,3 +21,10 @@ Run from the fork with the existing Saavan Python environment and `PYTHONPATH=sr
 This integration does not enable upstream proactive actions, automatic sending,
 SDK tool discovery, remote models or Rust-backed memory. Existing Saavan voice,
 project memory and task execution remain in the companion desktop repository.
+
+## Shared desktop runtime
+
+`openjarvis.saavan.runtime.DesktopRuntime` builds the shared OpenJarvis system
+used by Saavan's local chat and structured background work. See
+[UNIFIED_RUNTIME.md](UNIFIED_RUNTIME.md) for the capability matrix, native build,
+setup and verification. Test with `test_runtime.py` alongside `test_reviewer.py`.
